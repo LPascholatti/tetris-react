@@ -14,4 +14,4 @@ export const StyledDisplay = styled.div`
   background: #000;
   font-family: Pixel, Arial, Helvetica, snas-serif;
   font-size: 0.8rem;
-`
+`;
