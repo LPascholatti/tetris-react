@@ -4,7 +4,7 @@
 
 Application developed using ```create-react-app``` and ```styled-components```. This Tetris uses React Hooks.
 
-![](img/tetris-screenshot.png)
+![](src/img/tetris-screenshot.png)
 
 Deployed in Netlify with the URL: https://lpascolatti-tetris.netlify.com/
 
