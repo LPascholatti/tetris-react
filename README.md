@@ -1,8 +1,6 @@
 # Tetris 
 
-## Done with React
-
-### React Hooks Study
+## Tetris on React - Using Hooks
 
 Application developed using ```create-react-app``` and ```styled-components```. This Tetris uses React Hooks.
 
