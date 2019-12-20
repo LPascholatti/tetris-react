@@ -8,6 +8,7 @@ import { useStage } from "../hooks/useStage";
 import { createStage, checkCollision } from "../gameHelpers";
 import { useInterval } from "../hooks/useInterval";
 import { useGameStatus } from "../hooks/useGameStatus";
+import audio from '../mp3/stereolab-baby-lulu.mp3'
 
 const Tetris = () => {
   const [dropTime, setDropTime] = useState(null);
@@ -27,6 +28,8 @@ const Tetris = () => {
     }
   };
 
+  const audioConst = new Audio(audio)
+
   const startGame = () => {
     // Reset Everything
     setStage(createStage());
@@ -36,6 +39,7 @@ const Tetris = () => {
     setScore(0);
     setRows(0);
     setLevel(0);
+    audioConst.play()
   };
 
   const drop = () => {
