@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bgImage from "../../img/bg.png";
+import bgImage from "../../img/bg2.jpg";
 
 export const StyledTetris = styled.div`
   display: flex;
